@@ -1,6 +1,6 @@
 
 
-# 🧾 Burcode Generator
+# 🧾 Barcode Generator
 
 This is a simple and interactive Business Card Generator built with **HTML**, **CSS**, and **JavaScript**. It allows users to input their details and generates a styled business card with a QR code linking to their chosen URL.
 
