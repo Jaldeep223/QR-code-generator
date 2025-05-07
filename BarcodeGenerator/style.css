@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content{
+    padding: 20px 100px;
+}
+
+.content>label>i{
+    font-size: 15px;  
+    font-weight:900;
+}
+
+#yourName{
+    width: 400px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(62, 61, 61);
+}
+
+#yourDesi{
+    width: 400px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(62, 61, 61);  
+}
+
+#yourNumber{
+    width: 400px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(62, 61, 61);      
+}
+
+#yourEmail{
+    width: 400px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(62, 61, 61);  
+}
+
+#yourLink{
+    width: 400px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(62, 61, 61);  
+}
+
+
+#btn{
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: #287acc;
+    color: #fff;
+    cursor: pointer;
+}
+
+.verticalLine{
+    border: 1px solid rgb(7, 8, 7);
+    height: 600px;
+}
+
+#box1{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 250px;
+    background-color: rgb(6, 6, 125);
+    border-radius: 15px;
+    color: #fff;
+}
+
+.containerOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+
+#box2{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(6, 6, 125);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}

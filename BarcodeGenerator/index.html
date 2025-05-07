@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <div class="container">
+
+        <div class="content"> 
+
+            <form  id="userForm">
+
+            <label for="yourName"><i>Enter Your Name :</i></label><br><br>   
+            <input type="text"  id="yourName">
+            <br><br>    
+        
+            <label for="yourDesi"><i>Enter Your Designation :</i></label><br><br>    
+            <input type="text"  id="yourDesi">
+            <br><br>    
+
+
+            <label for="yourNumber"><i>Enter Your Number :</i></label><br><br>
+            <input type="number" id="yourNumber">
+            <br><br>
+        
+            <label for="yourEmail"><i>Enter YourEmail  :</i></label><br><br>
+            <input type="text" id="yourEmail"  >
+            <br><br>
+    
+            <label for="yourLink"><i>Enter Your link :</i></label> <br><br>
+            <input id="yourLink" type="text" >
+            <br><br>
+    
+            <!-- <label for="yourLogo"><i>Enter Your logo :</i></label><br><br>
+            <input type ="file"  id="yourLogo">
+            <br><br> -->
+        
+            <button id="btn" value="button">Generate Business Card</button>
+
+            </form> 
+
+        </div>
+
+        <div class="verticalLine"></div>
+
+        <div id="box1">
+
+            <div class="containerOne" >
+
+                <span id="name"></span><br>
+
+                <span id="desig"></span><br>
+
+                <span id="number"></span><br>
+
+                <span id="email"></span><br>
+  
+            </div>
+        
+    </div>
+
+    <div id="box2">
+       <div id="link">
+        <img src="" alt="" id="qrImg">
+       </div>   
+    </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
