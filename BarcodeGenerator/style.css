@@ -1,99 +1,217 @@
-.container{
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: auto;
+  gap: 60px;
+}
+
+/* Form */
+#userForm {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 500px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.content input {
+  padding: 10px 15px;  
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  width: 450px;
+}
+
+#btn {
+  padding: 12px 25px;
+  border-radius: 25px;
+  width: 300px;
+  margin-left:80px;
+  border: none;
+  background-color: #287acc;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.verticalLine {
+  width: 2px;
+  background-color: #000;
+  height: 600px;
+}
+.box{
+  text-align: center;
+}
+#box1 {
+  background-color: #06067d;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 200px;
+  height: 300px;
+}
+
+#qrImg {
+  width: 150px;
+  height: 200px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 20px 0 0 15px;
+}
+
+#barcodeContainer {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    flex-direction: row;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-}
-.content{
-    padding: 20px 100px;
-}
-
-.content>label>i{
-    font-size: 15px;  
-    font-weight:900;
-}
-
-#yourName{
-    width: 400px;
     padding: 10px;
-    font-size: 15px;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px rgb(62, 61, 61);
-}
+    height: 700px;
+    gap: 50px;
+  }
 
-#yourDesi{
+  #userForm {
     width: 400px;
+    padding: 20px 10px;
+  }
+
+  .content input {
+    width: 350px;
+    font-size: 0.9rem;
+  }
+
+  #btn {
+    width: 300px;
+    margin-left: 40px;
+  }
+.box{
+    align-content: center;
+}
+  #box1, #box2 {
+    width: 100px;
+    height: 300px;
     padding: 10px;
-    font-size: 15px;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px rgb(62, 61, 61);  
-}
+    align-items: center;
+  }
 
-#yourNumber{
-    width: 400px;
+  #link{
+    margin-right: 100px;
+  }
+ 
+} 
+
+ 
+@media (max-width: 800px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    flex-direction: row;
+    justify-content: space-evenly;
     padding: 10px;
-    font-size: 15px;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px rgb(62, 61, 61);      
-}
+    gap: 10px;
+  }
 
-#yourEmail{
-    width: 400px;
-    padding: 10px;
-    font-size: 15px;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px rgb(62, 61, 61);  
-}
+  #userForm {
+    width: 300px;
+    padding: 20px 10px;
+  }
 
-#yourLink{
-    width: 400px;
-    padding: 10px;
-    font-size: 15px;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px rgb(62, 61, 61);  
-}
-
-
-#btn{
-    padding: 15px;
-    font-size: 15px;
-    border-radius: 25px;
-    background-color: #287acc;
-    color: #fff;
-    cursor: pointer;
-}
-
-.verticalLine{
-    border: 1px solid rgb(7, 8, 7);
-    height: 600px;
-}
-
-#box1{
-    display: flex;
-    flex-direction: column;
-    height: 350px;
+  .content input {
     width: 250px;
-    background-color: rgb(6, 6, 125);
-    border-radius: 15px;
-    color: #fff;
-}
+    font-size: 0.9rem;
+  }
 
-.containerOne{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  #btn {
+    width: 250px;
+    margin-left: 20px;
+  }
+  .box{
+    margin-right: 10px;
+  }
+
+  #box1, #box2 {
+    width: 100px;
+    height: 200px;
+    padding: 10px;
     align-items: center;
-    margin-top: 70px;
     
+  }
+
+}  
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    flex-direction: column;
+    margin-right: 20px;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  #userForm {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .content input {
+    width: 250px;
+    font-size: 0.9rem;
+  }
+
+  #btn {
+    width: 250px;
+    margin-left: 20px;
+  }
+  .box{
+    align-content: center;
+    margin-left: 10px;
+  }
+  #box1, #box2 {
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+  }
+  #qrImg{
+    margin-right: 70px;
+  }
+
+  .verticalLine {
+    display: none; 
+  }
 }
 
-#box2{
-    height: 350px;
-    width: 250px;
-    background-color: rgb(6, 6, 125);
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-}
+
+
