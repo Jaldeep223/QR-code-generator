@@ -1,16 +1,39 @@
-# 📦 Barcode Generator
+# 🔳 QR Code Generator
 
-A simple and efficient Barcode Generator application that allows users to generate barcodes from custom input text. This project supports various barcode formats and is ideal for use in inventory management, retail, or any application requiring barcode encoding.
+A simple and responsive **QR Code Generator** built using **HTML**, **CSS**, and **JavaScript**. Users can enter any text or URL, and this tool instantly generates a scannable QR code.
+
+## 🚀 Live Demo
+
+👉 [Click here to view the live project](https://jaldeep223.github.io/QR-code-generator/)
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Structure
+- **CSS3** – Styling
+- **JavaScript** – QR generation logic
+
+
+---
 
 ## ✨ Features
 
-- Generate barcodes in real-time from user input
-- Support for multiple barcode formats (e.g. Code128, EAN-13, UPC, etc.)
-- Easy to use and responsive UI
+- 📥 Enter any text, URL, or data
+- 🔳 Instant QR code generation
+- 📱 Responsive design for mobile and desktop
 
-## 🛠️ Technologies Used
+---
 
-- HTML / CSS / JavaScript
+## 📂 Folder Structure
+
+```bash
+Barcode-Generator/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
 
 
 
